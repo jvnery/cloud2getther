@@ -1,0 +1,1019 @@
+@import url(custom.css);
+
+/*Largura das Seções*/
+
+.container {
+    max-width: 1194px;
+}
+
+/*Header MObile*/
+
+.mobile {
+   display: none;
+}
+
+.mobile .bar {
+    width: 100%;
+}
+
+.mobile .bar a {
+    text-decoration: none;
+}
+
+.mobile .bar li {
+    margin: 10px 0;
+}
+
+
+/*Seção Header*/
+
+.banner-header {
+    background: url(/img/cloud-technology-1.jpg) center no-repeat;
+    height: 750px;
+    padding: 48px 0;
+    background-size: cover;
+}
+
+.header .row {
+    align-items: center; 
+}
+
+.header .bar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.header a {
+    color: #FFFF;
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+.header .menu a:hover {
+    color: #48B1EE;
+}
+
+.header .area-membros {
+    background-color: #C377DB;
+    border-radius: 40px;
+    padding: 5px 11px 8px 11px;
+}
+
+.header .area-membros span{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.header .area-membros:hover {
+    background-color: #864d97;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title h1 {
+    text-align: center;
+    margin: 400px 0 20px 0;
+}
+
+.title .cloud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(94, 97, 100, 0.4);
+    border-radius: 100px;   
+    text-decoration: none;
+    padding: 13px 24px;
+}
+
+.title .cloud:hover {
+    background: rgba(68, 69, 70, 0.8);
+}
+
+.title .cloud h4 {
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+    margin-left: 10px;
+}
+
+/*Seção Company*/
+
+.banner-company {
+    background: url(/img/bg-company.png) center no-repeat;
+    background-size: cover;
+}
+
+.company {
+    padding: 120px 0;
+}
+
+.company .row {
+    padding-top: 40px;
+}
+
+.company .texts {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0 0 60px;
+}
+
+.company h3 {
+    color: #0765BD;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+/*Divisor de Seção*/
+
+.divisor {
+    border-bottom: 2px solid #DFE0E0;
+    max-width: 1860px;
+}
+
+/*Seção Team*/
+
+.team {
+    padding: 120px 0 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.team h4 {
+    margin-bottom: 30px;
+}
+
+.team .row {
+    max-width: 829px;
+    text-align: center;
+}
+
+.equipe {
+    max-width: 1400px;
+    padding: 0 0 80px 0;
+    position: relative;
+}
+
+.equipe .carrosel {
+    display: flex;
+}
+
+
+.equipe .carrosel .people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 30px 0 30px;
+    padding-bottom: 20px;
+}
+
+.equipe .carrosel .people .btn-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #85439A;
+    border-radius: 100px;
+    text-decoration: none;
+    filter: drop-shadow(-2px -2px 16px #5B216D);
+    padding: 12px 16px;
+    margin: -30px 0 0 100px;
+}
+
+.equipe .carrosel .people .btn-1 span {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.equipe .carrosel .people .btn-1::before {
+    content: url(/img/user-woman.svg);
+    margin-right: 12px;
+}
+
+.equipe .carrosel .people .btn-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #053C9D;
+    border-radius: 100px;
+    text-decoration: none;
+    filter: drop-shadow(-2px -2px 16px #053C9D);
+    padding: 12px 16px;
+    margin: -30px 0 0 0;
+}
+
+.equipe .carrosel .people .btn-2 span {
+    font-weight: 600;
+    font-size: 20.6667px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.equipe .carrosel .people .btn-2::before {
+    content: url(/img/user-man.svg);
+    margin-right: 12px;
+}
+
+.equipe .carrosel .owl-carousel .owl-nav {
+    position: absolute;
+    left: 46.5%;
+    top: 0;
+}
+
+.equipe .carrosel .owl-carousel .owl-nav .owl-next,
+.equipe .carrosel .owl-carousel .owl-nav .owl-prev {
+   background: #C3ECFF!important;
+   margin: 0 10px;
+}
+
+.equipe .carrosel .owl-carousel .owl-nav .owl-next span {
+    content: url(/img/next-nav.png);
+}
+
+.equipe .carrosel .owl-carousel .owl-nav .owl-prev span {
+    content: url(/img/prev-nav.png);
+}
+
+/*Seção Cases*/
+
+.banner-cases {
+    background: url(/img/banner-cases.jpg) center no-repeat;
+    background-size: cover;
+    height: 750px;
+    padding: 80px 0 110px 0;
+}
+
+.cases h4{
+    margin-bottom: 80px;
+}
+
+.cases .grid {
+    justify-content: space-between;
+}
+
+.cases p {
+    color: #FFFFFF;
+    line-height: 30px;
+    margin-top: 32px;
+}
+
+/*Seção Marks*/
+
+.background-marks {
+    background: #48B1EE;
+    height: 133px;
+}
+
+.marcas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.marks .logo {
+    margin: 0 24px;
+}
+
+.marcas .owl-carousel .owl-nav {
+    position: absolute;
+    left: 46.5%;
+    top: 30px;
+    left: 0;
+}
+
+.marcas .owl-carousel .owl-nav .owl-next {
+    background: #48B1EE!important;
+    position: absolute;
+    left: 1150px;
+}
+
+.marcas .owl-carousel .owl-nav .owl-prev {
+   background: #48B1EE!important;
+}
+
+.marcas .owl-carousel .owl-nav .owl-next span {
+    content: url(/img/next-marks.png);
+}
+
+.marcas .owl-carousel .owl-nav .owl-prev span {
+    content: url(/img/prev-marks.png);
+}
+
+/*Seção Numbers*/
+
+.banner-numbers {
+    background: url(/img/bg.png) center no-repeat;
+    background-size: cover;
+    height: 807px;
+}
+
+.banner-numbers h4{
+    margin: 60px 0;
+}
+
+.numbers {
+    display: flex;
+    gap: 30px;
+}
+
+.numbers .colunas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numbers .colunas .title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 102px;
+    line-height: 152px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #48B1EE;
+}
+
+.numbers .texts {
+    padding: 30px 16px;
+    background: linear-gradient(180deg, #0B0E24 0%, #19204A 100%);
+    box-shadow: 0px 0px 10px rgba(1, 183, 210, 0.2);
+    border-radius: 18px;
+}
+
+.numbers .texts .icon {
+    margin-top: -40px;
+    display: flex;
+    justify-content: end;
+}
+
+.numbers .texts span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #40B1E5;
+}
+
+.numbers .texts p {
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+/*Seção Works*/
+
+.banner-works {
+    background: url(/img/banner-works.jpg) center no-repeat;
+    background-size: cover;
+    height: 807px;
+}
+
+.sobrepor {
+    background: linear-gradient(180deg, #0B0E24 0%, rgba(25, 32, 74, 0) 100%);
+    background-size: cover;
+    height: 807px;
+}
+
+.works .text p{
+    margin: 100px 0 40px 0;
+    text-align: justify;
+    font-size: 24px;
+    line-height: 50px;
+    color: #606060;
+}
+
+.works .why-cloud2getther {
+    background-color: #C3ECFF;
+    margin: 80px 0;
+    padding: 32px 60px;
+    border-radius: 17px;
+}
+
+.works .why-cloud2getther p {
+    font-size: 24px;
+    line-height: 40px;
+    color: #606060;
+    text-align: justify;
+}
+
+.works .princing {
+    border: 1px solid #5E6164;
+    padding: 36px 50px 60px 50px;
+    margin: 100px 0 48px 0; 
+}
+
+.works .princing .col-3 {
+    display: flex;
+    align-items: center;
+}
+
+.works .princing h3 {
+    color: #48B1EE;
+}
+
+.works .princing .plans {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.works .princing #plans {
+    border-right: 1px solid #053C9D;
+}
+
+.works .princing .plans h5{
+    margin-left: 6px;
+}
+
+.works .princing .plans span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #0768BD;
+    margin: 0 0 10px 6px;
+}
+
+.works .princing .plans span::before {
+    content: url(/img/check.svg);
+    margin-right: 6px;
+}
+
+.works .princing .plans a {
+    background: #48B1EE;
+    border-radius: 36px;
+    width: 130px;
+    padding: 8px 12px;
+    margin-top: 6px;
+    text-decoration: none;
+}
+
+.works .princing .plans a:hover {
+    background: #002E5F;
+}
+
+.works .princing .plans .button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.works .princing .plans .button::before {
+    content: url(/img/hands-clapping.svg);
+    margin-right: 6px;
+}
+
+.works #princing {
+    margin: 0 0 100px 0;
+}
+
+.works .princing .col-4 {
+    display: flex;
+    align-items: center;
+}
+
+.works #princing h3 {
+    color: #C377DB;
+}
+
+.works .princing #plans-pink {
+    border-right: 1px solid #F1C5FF;
+}
+
+.works .princing #plans-pink h5 {
+    color: #85439A;
+}
+
+.works .princing #plans-pink span {
+    color: #5B216D;
+}
+
+.works .princing #plans-pink span::before {
+    content: url(/img/check-pink.svg);
+    margin-right: 6px;
+}
+
+.works .princing #plans-pink a {
+    background-color: #C377DB;
+}
+
+.works .princing #plans-pink a:hover {
+    background-color: #85439A;
+}
+
+.works .princing #plans-pink .button {
+    color:#FFFFFF;
+}
+
+.works .princing #plans-pink .button::before {
+    content: url(/img/hands-clapping.svg);
+    margin-right: 6px;
+}
+
+/*Seção Contact*/
+
+.contact {
+    max-width: 800px;
+}
+
+.contact h4{
+    margin-bottom: 60px;
+}
+
+.contact h2 b{
+    color: #053C9D;
+    font-weight: 800;
+}
+
+.contact form {
+    padding: 60px 0 200px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact form #margin{
+    margin-right: 30px;
+}
+
+.contact form input {
+    display: flex;
+    width: 48%;
+    padding: 18px 16px;
+    border: 1px solid #CDD7E1;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    color:#48B1EE;
+}
+
+.contact form textarea {
+    width: 100%;
+    padding: 18px 16px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    border: 1px solid #CDD7E1;
+    color:#48B1EE;
+}
+
+.contact form textarea::placeholder {
+    color: #84919E;
+}
+
+.contact form input::placeholder {
+    color: #84919E;
+}
+
+.contact form .nome::placeholder{  
+    background-image: url("/img/user-2.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+}
+
+.contact form .telefone::placeholder{  
+    background: url("/img/phone.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+}
+
+.contact form .email::placeholder{  
+    background: url("/img/envelope.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+}
+
+.contact form .assunto::placeholder{  
+    background: url("/img/comment.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+}
+
+.contact form .mensagem::placeholder{  
+    background: url("/img/comments.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+}
+
+.contact form a {
+    display: flex;
+    justify-content: center;
+    border-radius: 60px;
+    text-decoration: none;
+    background: #053C9D;
+    padding: 12px 30px;
+}
+
+
+.contact form .enviar {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #48B1EE;
+}
+
+.contact form .enviar::before {
+    content: url(/img/airplane.svg);
+    margin-right: 6px;
+}
+
+.contact form a:hover{
+    background: #0B0E24;
+}
+
+/*Seção Footer*/
+
+footer {
+    background: #053C9D;
+}
+
+footer .row {
+    height: 60px;
+    align-content: center;
+    align-items: center;
+}
+
+footer span {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #0B0E24;
+}
+
+footer .row {
+    --bs-gutter-x: 0;
+}
+
+/* Responsividade */
+
+@media (max-width:1400px){
+    .title h1 {
+        margin: 300px 0 20px 0;
+    }
+
+    .equipe {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width:1250px){
+
+    .title h1 {
+        margin: 200px 0 20px 0;
+    }
+
+    .container {
+        max-width: 1100px;
+    }
+
+    .gray img {
+        width: 400px;
+    }
+
+    .marcas .owl-carousel .owl-nav .owl-next {
+        left: 1050px;
+    }
+}
+
+@media (max-width:1180px){
+    .company{
+        padding: 60px 0;
+    }
+
+    .team {
+        padding: 80px 0 50px 0;
+    }
+
+    .equipe {
+        max-width: 910px;
+    }
+
+    .banner-cases {
+        padding: 60px 0 80px 0;
+    }
+
+    .banner-numbers h4{
+       margin: 40px 0;
+    }
+
+    .banner-numbers {
+        height: 700px;
+    }
+
+    .banner-works {
+        height: 600px;
+    }
+
+    .sobrepor {
+        height: 600px;
+    }
+
+    .works .text p {
+        margin: 60px 0 40px 0;
+    }
+
+    .works .princing {
+        margin: 80px 0 40px 0;
+    }
+
+    .works #princing {
+        margin: 0 0 80px 0;
+    }
+    
+    .contact form {
+        padding: 50px 0 120px 0;
+    }
+}
+
+@media (max-width:1100px){
+    .container {
+        max-width: 1000px;
+    }
+
+    .equipe {
+        max-width: 910px;
+    }
+
+    .marcas .owl-carousel .owl-nav .owl-next {
+        left: 860px;
+    }
+
+    .works .princing .plans {
+        width: 140px;
+    }
+}
+
+@media (max-width:1000px){
+    .container {
+        max-width: 900px;
+    }
+
+    .banner-header {
+        height: 650px;
+    }
+
+    .company img {
+        width: 400px;
+        height: auto;
+    }
+
+    .company{
+        padding: 30px 0;
+    }
+
+    .team {
+        padding: 50px 0 30px 0;
+    }
+
+    .banner-cases {
+        padding: 40px 0 40px 0;
+    }
+
+    .marcas .owl-carousel .owl-nav .owl-next {
+        left: 830px;
+    }
+
+    .banner-numbers {
+        height: 800px;
+    }
+
+    .banner-works {
+        height: 400px;
+    }
+
+    .sobrepor {
+        height: 400px;
+    }
+
+    .works .text p {
+        margin: 40px 0 30px 0;
+    }
+
+    .works .princing {
+        margin: 60px 0 30px 0;
+    }
+
+    .works #princing {
+        margin: 0 0 50px 0;
+    }
+
+    .works .princing .plans {
+        width: 130px;
+    }
+
+    .contact h4 {
+        margin-bottom: 40px;
+    }
+    
+    .contact form {
+        padding: 30px 0 80px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        display: none;
+    }
+
+    .mobile {
+        position: fixed;
+        display: flex;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .numbers {
+        flex-wrap: wrap;
+    }
+
+    .numbers .colunas{
+        width: 50%;
+    }
+
+    .numbers #flex {
+        flex: 1;
+    }
+
+    .banner-numbers {
+        height: 1000px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    
+    h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    
+    h3{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    h4{
+        font-size: 22px;
+        line-height: 34px;
+    }
+    
+    h5{
+        font-size: 23px;
+        line-height: 28px;
+    }
+    
+    a{
+        font-size: 17px;
+        line-height: 26px;
+        text-decoration: none;
+    }
+    
+    p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5E6164;
+    }
+
+    .title h1 {
+        margin: 100px 0 20px 0;
+    }
+
+    .title .cloud h4 {
+        font-size: 20px;
+    }
+
+    .cases p {
+        line-height: 24px;
+    }
+    
+    .works .text p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .works .why-cloud2getther p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .container {
+        max-width: 700px;
+    }
+
+    .gray img {
+        width: 350px;
+    }
+
+    .banner-header {
+        height: 550px;
+    }
+
+    .company .row {
+        padding-top: 20px;
+    }
+
+    .company img {
+        width: 300px;
+    }
+
+    .company .texts {
+        width: 50%;
+        margin: 0;
+    }
+
+    .equipe .carrosel .owl-carousel .owl-nav {
+        left: 42%;
+    }
+
+    .equipe .carrosel .people {
+        margin: 80px 0 0 0;
+    }
+
+    .equipe .carrosel .people img {
+        width: 80%;
+    }
+
+    .cases h4 {
+        margin-bottom: 50px;
+    }
+
+    .cases .grid .coluna{
+        width: 48%;
+    }
+
+    .banner-cases {
+        height: auto;
+    }
+
+    .marks .logo {
+        margin: 0 10px;
+    }
+    
+    .marcas .owl-carousel .owl-nav .owl-next {
+        left: 650px;
+    }
+
+    .banner-numbers h4 {
+        margin: 40px 0 0 0;
+    }
+
+    .banner-works {
+        height: 300px;
+    }
+
+    .works .why-cloud2getther {
+        margin: 40px 0;
+        padding: 24px 40px;
+    }
+
+    .works .princing {
+        margin: 40px 0 20px 0;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .works .princing {
+        gap: 20px;
+    }
+
+    .works .princing .plans {
+        width: 220px;
+    }
+
+    .works {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact form input {
+        width: 47%;
+    }
+
+    .contact form #margin {
+        margin-right: 40px;
+    }
+
+    .contact form .enviar {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
