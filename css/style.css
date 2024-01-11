@@ -1,4 +1,4 @@
-@import url(custom.css);
+@import url(./custom.css);
 
 /*Largura das Seções*/
 
@@ -28,7 +28,7 @@
 /*Seção Header*/
 
 .banner-header {
-    background: url(/img/cloud-technology-1.jpg) center no-repeat;
+    background: url(../img/cloud-technology-1.jpg) center no-repeat;
     height: 750px;
     padding: 48px 0;
     background-size: cover;
@@ -106,7 +106,7 @@
 /*Seção Company*/
 
 .banner-company {
-    background: url(/img/bg-company.png) center no-repeat;
+    background: url(../img/bg-company.png) center no-repeat;
     background-size: cover;
 }
 
@@ -193,7 +193,7 @@
 }
 
 .equipe .carrosel .people .btn-1::before {
-    content: url(/img/user-woman.svg);
+    content: url(../img/user-woman.svg);
     margin-right: 12px;
 }
 
@@ -217,7 +217,7 @@
 }
 
 .equipe .carrosel .people .btn-2::before {
-    content: url(/img/user-man.svg);
+    content: url(../img/user-man.svg);
     margin-right: 12px;
 }
 
@@ -234,17 +234,17 @@
 }
 
 .equipe .carrosel .owl-carousel .owl-nav .owl-next span {
-    content: url(/img/next-nav.png);
+    content: url(../img/next-nav.png);
 }
 
 .equipe .carrosel .owl-carousel .owl-nav .owl-prev span {
-    content: url(/img/prev-nav.png);
+    content: url(../img/prev-nav.png);
 }
 
 /*Seção Cases*/
 
 .banner-cases {
-    background: url(/img/banner-cases.jpg) center no-repeat;
+    background: url(../img/banner-cases.jpg) center no-repeat;
     background-size: cover;
     height: 750px;
     padding: 80px 0 110px 0;
@@ -306,17 +306,17 @@
 }
 
 .marcas .owl-carousel .owl-nav .owl-next span {
-    content: url(/img/next-marks.png);
+    content: url(../img/next-marks.png);
 }
 
 .marcas .owl-carousel .owl-nav .owl-prev span {
-    content: url(/img/prev-marks.png);
+    content: url(../img/prev-marks.png);
 }
 
 /*Seção Numbers*/
 
 .banner-numbers {
-    background: url(/img/bg.png) center no-repeat;
+    background: url(../img/bg.png) center no-repeat;
     background-size: cover;
     height: 807px;
 }
@@ -373,7 +373,7 @@
 /*Seção Works*/
 
 .banner-works {
-    background: url(/img/banner-works.jpg) center no-repeat;
+    background: url(../img/banner-works.jpg) center no-repeat;
     background-size: cover;
     height: 807px;
 }
@@ -444,7 +444,7 @@
 }
 
 .works .princing .plans span::before {
-    content: url(/img/check.svg);
+    content: url(../img/check.svg);
     margin-right: 6px;
 }
 
@@ -469,7 +469,7 @@
 }
 
 .works .princing .plans .button::before {
-    content: url(/img/hands-clapping.svg);
+    content: url(../img/hands-clapping.svg);
     margin-right: 6px;
 }
 
@@ -499,7 +499,7 @@
 }
 
 .works .princing #plans-pink span::before {
-    content: url(/img/check-pink.svg);
+    content: url(../img/check-pink.svg);
     margin-right: 6px;
 }
 
@@ -516,7 +516,7 @@
 }
 
 .works .princing #plans-pink .button::before {
-    content: url(/img/hands-clapping.svg);
+    content: url(../img/hands-clapping.svg);
     margin-right: 6px;
 }
 
@@ -574,35 +574,35 @@
 }
 
 .contact form .nome::placeholder{  
-    background-image: url("/img/user-2.svg");
+    background-image: url("../img/user-2.svg");
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 30px;
 }
 
 .contact form .telefone::placeholder{  
-    background: url("/img/phone.svg");
+    background: url("../img/phone.svg");
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 30px;
 }
 
 .contact form .email::placeholder{  
-    background: url("/img/envelope.svg");
+    background: url("../img/envelope.svg");
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 30px;
 }
 
 .contact form .assunto::placeholder{  
-    background: url("/img/comment.svg");
+    background: url("../img/comment.svg");
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 30px;
 }
 
 .contact form .mensagem::placeholder{  
-    background: url("/img/comments.svg");
+    background: url("../img/comments.svg");
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 30px;
@@ -626,7 +626,7 @@
 }
 
 .contact form .enviar::before {
-    content: url(/img/airplane.svg);
+    content: url(../img/airplane.svg);
     margin-right: 6px;
 }
 
